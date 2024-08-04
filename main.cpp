@@ -183,4 +183,5 @@ int main() {
     test_build_LUT_CPU();
     std::cout << "All tests passed!" << std::endl;
     return 0;
+    // merge test
 }
