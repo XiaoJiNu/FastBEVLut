@@ -1,0 +1,4 @@
+/home/yr/yr/software/clion-2023.3.4/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/yr/yr/software/clion-2023.3.4/bin/ninja/linux/x64/ninja -G Ninja -S /home/yr/yr/code/cv/BEV/FastBEVLut -B /home/yr/yr/code/cv/BEV/FastBEVLut/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/yr/yr/code/cv/BEV/FastBEVLut/cmake-build-debug
