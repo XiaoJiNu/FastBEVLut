@@ -80,6 +80,7 @@ void build_LUT_CPU(std::vector<int32_t> n_voxels, Tensor voxel_size, Tensor orig
                 *current_lut = -1;        // 存储图像索引
                 *(current_lut + 1) = 0;   // 存储对应图像中的像素索引
                 for (int img = 0; img < n_images; img++) {
+                    // 这里世界坐标系的原点是在BEV网格的中心，即车辆后轴中心，z=0。在项目中，z=-1
                     pt[0] = (xi - n_x_voxels / 2.0f) * size_x + origin_x;
                     pt[1] = (yi - n_y_voxels / 2.0f) * size_y + origin_y;
                     pt[2] = (zi - n_z_voxels / 2.0f) * size_z + origin_z;
